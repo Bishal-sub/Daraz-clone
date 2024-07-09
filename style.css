@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:#F5F5F5;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #F85606;
+    color: aliceblue;
+}
+.head1 a{
+    text-decoration: none;
+   color: aliceblue;
+   margin: 10px;
+   font-size: 12px; 
+ 
+}
+.head .head1 .hh1{
+    margin-left: 170px;
+}
+.head1 a:hover{
+    color: rgb(210, 162, 114);
+    font-size: 12.2px;
+
+}
+.logo{
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 50px;
+    opacity: 100%;
+}
+.head2{
+    display: flex;
+}
+.search{
+    width: 800px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 8px ;
+    border: none;
+    font-size: 16px;
+}
+.search1{
+    margin-top: 25px;
+    height: 30px;
+    margin-left: -50px;
+  
+}
+.login{
+
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.l{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+.signup{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 28px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+}
+.leftside{
+    width: 240px;
+    height: 380px;
+    background-color: rgb(254, 255, 255);
+    margin-left: 160px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+
+
+}
+.leftside li{
+    
+   margin: 12px;
+   list-style-type: none;
+}
+
+.rightside{
+    height: 380px;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.slide{
+width: 100%;
+height: 100%;
+transition: 1s;
+position: absolute;
+}
+.prev, .next {
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    background-color:rgba(28, 24, 19, 0.045);
+    color: white;
+    margin-top: 200px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .next {
+    right: 0px;
+  }
+  .sales{
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .Categories h2{
+    margin-left: 150px;
+    font-style: arial;
+    color: black;
+
+  }
+  
+  .co2 {
+    width: 1250px;
+    height: 350px;
+    background-color: transparent;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.up, .low {
+    display: flex;
+    justify-content: center; 
+    
+}
+.up a, .low a{
+    text-decoration: none;
+    color: black;
+}
+
+.cate, .cate0 {
+    width: 160px;
+    height: 165px;
+    background-color: white;
+    margin: 0.5px;
+    text-align: center;
+}
+
+.cate:hover{
+    transform: scale(1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      
+}
+.cate0:hover{
+    transform: scale(1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.cate img{
+    width: 125px;
+    align-items: center;
+}
+.cate0 img{
+    width: 125px;
+    align-items: center;
+}
+.justforyou h2{
+    margin-left: 150px;
+    font-style: arial;
+    color: black;
+  }
+  .jfy {
+    width: 1250px;
+    height: 1090px;
+    background-color:transparent;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+}
+.j1 {
+    display: flex;
+    justify-content: center; 
+    
+}
+.j1 a{
+    text-decoration: none;
+    color: black;
+}
+.jf{
+    width: 200px;
+    height: 260px;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+
+}
+.jf img{
+    width: 200px;
+    align-items: center;
+}
+
+.jf:hover{
+    transform: scale(1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.LM{
+     text-align: center;
+}
+.btn0{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #F85606;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+.footimg{
+    margin-top: 40px;
+    margin-left: 100px;
+}
